@@ -758,7 +758,7 @@ section * {
   border-radius: 0;
   border: 0;
   background: none!important;
-  color: white;
+  color: 333;
 }
 .header-10 .navbar .btn-navbar:hover,
 .header-10 .navbar .btn-navbar:focus {
