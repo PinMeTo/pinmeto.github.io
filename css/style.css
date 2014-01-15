@@ -1128,7 +1128,7 @@ section * {
 }
 .content-7 .screen-wrapper .screen img {
   position: relative;
-  max-width: none;
+  max-width: 300px;
 }
 .content-7 .screen-wrapper .screen img:first-child {
   position: absolute;
