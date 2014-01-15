@@ -1549,11 +1549,16 @@ body > section.v-center > div {
 .hashtags       { background-image: url('../img/4744866167_33d45dd27e_b.jpg'); }
 
 .section-thumb {
-  max-width: 397px;
-  height: auto;
+  width: 345px;
+  height: 258px;
+  border: 0;
 }
 
 .home-thumb          { background-image: url('../img/home-thumb.png'); }
+.dashboard-thumb     { background-image: url('../img/dashboard-thumb.png'); }
+.history-thumb       { background-image: url('../img/history-thumb.png'); }
+.recent-photos-thumb { background-image: url('../img/recent-photos-thumb.png'); }
+.hashtags-thumb      { background-image: url('../img/hashtags-thumb.png'); }
 
 
 
