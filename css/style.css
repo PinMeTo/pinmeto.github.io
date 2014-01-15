@@ -186,6 +186,9 @@ blockquote:before {
 .text-primary {
   color: #1abc9c;
 }
+.btm-primary {
+
+}
 a.text-primary:hover,
 a.text-primary:focus {
   color: #15967d;
@@ -245,6 +248,15 @@ footer {
   box-shadow: none;
 }
 /* end only for flat-ui free*/
+.pinmeto-blue {
+  color: #33b1fd;
+}
+.bg-pinmeto-blue {
+  background-color: #33b1fd;
+}
+.bg-pinmeto-blue:hover {
+  background-color: #79d3fe;
+}
 .bg-white {
   background-color: #ffffff;
 }
@@ -641,7 +653,7 @@ section * {
 .nav-visible .nav-collapse .navbar-search a.btn:hover,
 .nav-visible .nav-collapse .navbar-form a.btn:focus,
 .nav-visible .nav-collapse .navbar-search a.btn:focus {
-  color: #7f8c8d;
+  color: #33b1fd;
   background-color: white;
 }
 /* header */
@@ -746,11 +758,11 @@ section * {
 }
 .header-10 .navbar .btn-navbar:hover,
 .header-10 .navbar .btn-navbar:focus {
-  color: #bdc3c7;
+  color: #33b1fd;
 }
 .header-10 .navbar .btn-navbar:active,
 .header-10 .navbar .btn-navbar.active {
-  color: #869198;
+  color: #33b1fd;
 }
 @media (max-width: 979px) {
   .header-10 .navbar .nav-collapse {
@@ -1062,7 +1074,7 @@ section * {
 .content-7 h6 {
   font-size: 18px;
   font-weight: normal;
-  color: #e74c3c;
+  color: #33b1fd;
   font-weight: 500;
   margin-top: 60px;
   text-transform: none;
@@ -1146,18 +1158,18 @@ section * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: none;
-  border: 2px solid #e74c3c;
+  border: 2px solid #33b1fd;
   font-size: 14px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #33b1fd;
   font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 12px 28px 12px;
-  color: #e74c3c;
+  color: #33b1fd;
 }
 .content-8 .btn.btn-clear:hover,
 .content-8 .btn.btn-clear:focus {
-  background: #e74c3c;
+  background: #33b1fd;
   color: #fff;
 }
 .content-8 .btn.btn-clear:active,
@@ -1643,6 +1655,8 @@ body > section.v-center > div {
 }
 .price-1 .plan .btn {
   min-width: 150px;
+
+background-color: #33b1fd;  
 }
 .price-1 .ribbon {
   position: absolute;
