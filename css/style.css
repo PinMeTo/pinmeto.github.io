@@ -667,9 +667,9 @@ section * {
 .header-10 {
   z-index: 100;
   width: 100%;
-  padding-top: 0;
-  padding-bottom: 0;
-  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
   color: white;
 
 }
