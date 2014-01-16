@@ -1136,7 +1136,6 @@ section * {
   top: 0;
   max-height: 100%;
 }
-
 /**
  * Content 8 stylesheet  
  * */
@@ -1144,8 +1143,6 @@ section * {
   position: relative;
   text-align: center;
 }
-
-
 .content-8 h3 {
   text-align: center;
   font-size: 30px;
@@ -1188,15 +1185,8 @@ section * {
 .content-8.v-center,
 .content-8 .v-center {
   display: table;
-  width: 70%;
-  margin: 0 auto;
-  border: 1px solid red;
+  width: 100%;
 }
-
-@media (max-width: 1000px) {
-
-}
-
 .content-8.v-center > div,
 .content-8 .v-center > div {
   display: table-cell;
@@ -1275,21 +1265,13 @@ section * {
 }
 .content-23 {
   position: relative;
-  max-height: 800px;
+  height: 800px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  background-position: center center;
 }
-@media (max-width: 768px) {
-  .content-23 {
-    max-width: 100% !important; 
-    max-height: 200px;
-  }
-}
-
 .content-23.v-center,
 .content-23 .v-center {
   display: table;
@@ -1586,12 +1568,6 @@ body > section.v-center > div {
   width: 345px;
   height: 258px;
   border: 0;
-  margin: 0 auto;
-}
-@media (max-width: 768px){
-  .section-thumb {
-    max-width: 50% !important;
-  }
 }
 
 .home-thumb          { background-image: url('../img/home-thumb.png'); }
@@ -1601,16 +1577,38 @@ body > section.v-center > div {
 .hashtags-thumb      { background-image: url('../img/hashtags-thumb.png'); }
 
 
-/*  testing  */
 
-@media (max-width: 768px){
- .content-23.custom-bg{
-    background-position: 0px 0px !important;
-    background-attachment: absolute !important; 
-    background-size: cover !important;
- }
+
+/* ppedit added from sample 3 */
+
+/* price */
+.ribbon {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0 10px!important;
+  background: #e74c3c;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
 }
-
+.ribbon:before,
+.ribbon:after {
+  display: block;
+  position: absolute;
+  line-height: 0;
+}
+.ribbon:before {
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAgCAYAAADe+2JdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAIcbAACL/wAA/RMAAIWJAACNJgAA5z0AADj/AAAeyY4zee8AAACLSURBVHja7M6xCcIAEAXQZwwpJI0W6V3AVgdwKrF3CWdwAhFcIjhDKiGCoDGxSVAxyQT5zcG94+5G+X4GS+zqOlEnxAKn72aTANs2aHCtIwGmfWjAAfsxhPIWeaSJVxaris98WN4i9/Nc9Rz/r32kSStA8Mri7oeqIsj7vj324QbXLrxghQN+TrwHABFIH/AzT59nAAAAAElFTkSuQmCC');
+  left: -7px;
+  bottom: 0;
+}
+.ribbon:after {
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAIcbAACL/wAA/RMAAIWJAACNJgAA5z0AADj/AAAeyY4zee8AAACMSURBVHja7MwxDoJAFIThf9fVAo2x4A5cwprKytPY2HoJS6/hCbwBoaKi0WxYoyYg+ywICQK9jdPNl/dG5Zu1AA44Azsg1TRZAlvgAkQttlkBhz4CxGO4GEP++Cs0yc2ilWI+NYRBwGyim0svwr2syApHWdff716E6/M13HxUbztAL3I0nW6BE7D/DADKLyXavmqdkAAAAABJRU5ErkJggg==');
+  right: -5px;
+  top: 0;
+}
 /**
  * Price 1 stylesheet  
  * */
