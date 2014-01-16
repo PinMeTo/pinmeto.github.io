@@ -1585,8 +1585,12 @@ body > section.v-center > div {
 .recent-photos-thumb { background-image: url('../img/recent-photos-thumb.png'); }
 .hashtags-thumb      { background-image: url('../img/hashtags-thumb.png'); }
 
-@media (max-width: 1000px){
-
+@media (max-width: 768px){
+ .content-23.custom-bg{
+    background-position: 0px 0px !important;
+    background-attachment: absolute !important; 
+    background-size: cover !important;
+ }
 }
 
 

@@ -47,16 +47,15 @@ function fadedEls(el, shift) {
 
         // Parallax
 
-        /* remove for movile 
         $('.header-10-sub, .content-23').each(function() {
             $(this).parallax('50%', 0.3, true);
         });
-        */
 
         // Faded elements
         fadedEls($('.content-7'), 300);
         fadedEls($('.content-8'), 300);
 
+/*
         (function(el) {
             $('img:first-child', el).css('left', '-29.7%');
 
@@ -76,6 +75,7 @@ function fadedEls(el, shift) {
             });
         })($('.screen'));
 
+*/
        
         (function(el) {
             el.css('left', '-100%');
