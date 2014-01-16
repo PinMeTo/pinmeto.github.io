@@ -1568,6 +1568,7 @@ body > section.v-center > div {
   width: 345px;
   height: 258px;
   border: 0;
+  margin: 0 auto;
 }
 
 .home-thumb          { background-image: url('../img/home-thumb.png'); }
