@@ -1587,6 +1587,8 @@ body > section.v-center > div {
   .section-thumb {
     width: 90%;
     margin: 0 auto;
+    background-size: 100% auto;
+    background-repeat: none;
   }
 }
 
