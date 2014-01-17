@@ -1554,7 +1554,8 @@ body > section.v-center > div {
 .content-23.custom-bg {
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+/*  background-attachment: fixed;
+*/
 }
 /* ppedit */
 @media (max-width: 767px){
