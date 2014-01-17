@@ -1583,6 +1583,12 @@ body > section.v-center > div {
   height: 258px;
   border: 0;
 }
+@media (max-width: 767px){
+  .section-thumb {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 
 .home-thumb          { background-image: url('../img/home-thumb.png'); }
 .dashboard-thumb     { background-image: url('../img/dashboard-thumb.png'); }
