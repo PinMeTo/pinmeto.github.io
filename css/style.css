@@ -401,10 +401,8 @@ footer {
   body > section,
   header,
   footer {
-/*
     padding-right: 20px;
     padding-left: 20px;
-*/
   }
 }
 h1,
@@ -628,9 +626,7 @@ section * {
 .container {
   position: relative;
   z-index: 2;
-  /* ppedit */
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 @media (max-width: 767px) {
   header {
@@ -860,10 +856,11 @@ section * {
   color: white;
   text-align: center;
 }
-.header-10-sub.v-center,
+.header-10-sub.v-center, 
 .header-10-sub .v-center {
   display: table;
-  width: 100%;
+/*  width: 100%;
+*/
 }
 .header-10-sub.v-center > div,
 .header-10-sub .v-center > div {
@@ -1585,13 +1582,14 @@ body > section.v-center > div {
   width: 345px;
   height: 258px;
   border: 0;
+  background-repeat: no-repeat;
+
 }
 @media (max-width: 767px){
   .section-thumb {
     width: 90%;
     margin: 0 auto;
     background-size: 100% auto;
-    background-repeat: none;
   }
 }
 
