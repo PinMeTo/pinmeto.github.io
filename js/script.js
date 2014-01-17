@@ -1,3 +1,5 @@
+/*
+
 function fadedEls(el, shift) {
     el.css('opacity', 0);
 
@@ -55,7 +57,6 @@ function fadedEls(el, shift) {
         fadedEls($('.content-7'), 300);
         fadedEls($('.content-8'), 300);
 
-/*
         (function(el) {
             $('img:first-child', el).css('left', '-29.7%');
 
@@ -75,7 +76,6 @@ function fadedEls(el, shift) {
             });
         })($('.screen'));
 
-*/
        
         (function(el) {
             el.css('left', '-100%');
@@ -106,3 +106,5 @@ function fadedEls(el, shift) {
     });
 })(jQuery);
 
+
+*/

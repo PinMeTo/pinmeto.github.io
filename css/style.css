@@ -1556,6 +1556,12 @@ body > section.v-center > div {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/* ppedit */
+@media (max-width: 767px){
+  .content-23.custom-bg {
+    background-attachment: relative;
+  }
+}
 
 /* ppedit section specific bg's  */
 .home           { background-image: url('../img/5047947055_a318a24768_b.jpg'); }
