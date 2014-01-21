@@ -1470,9 +1470,11 @@ body > section.v-center > div {
 .history        { background-image: url('../img/1569731156_3f1199abb9_b.jpg'); }
 .recent-photos  { background-image: url('../img/5279770943_fdb88f97d1_o.jpg'); }
 .hashtags       { background-image: url('../img/4744866167_33d45dd27e_b.jpg'); }
+.widget         { background-image: url('../img/widget.jpg'); }
+.touch          { background-image: url('../img/touch.jpg'); }
 
 .section-thumb {
-  max-width: 900px;
+  max-width: 400px;
   height: 258px;
   border: 0;
   background-repeat: no-repeat;
@@ -1491,6 +1493,8 @@ body > section.v-center > div {
 .history-thumb       { background-image: url('../img/history-thumb.png'); }
 .recent-photos-thumb { background-image: url('../img/recent-photos-thumb.png'); }
 .hashtags-thumb      { background-image: url('../img/hashtags-thumb.png'); }
+.widget-thumb      { background-image: url('../img/widget-thumb.png'); }
+.touch-thumb      { background-image: url('../img/touch-thumb.jpg'); }
 @media (max-width: 767px){
 .dashboard-thumb     { background-image: url('../img/dashboard-thumb.png'); }
 
