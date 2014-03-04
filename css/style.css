@@ -1465,13 +1465,22 @@ body > section.v-center > div {
 }
 
 /* ppedit section specific bg's  */
-.home           { background-image: url('../img/5047947055_a318a24768_b.jpg'); }
-.dashboard      { background-image: url('../img/162363485_5cd8908aa6_o.jpg');  }
-.history        { background-image: url('../img/1569731156_3f1199abb9_b.jpg'); }
-.recent-photos  { background-image: url('../img/5279770943_fdb88f97d1_o.jpg'); }
-.hashtags       { background-image: url('../img/4744866167_33d45dd27e_b.jpg'); }
-.widget         { background-image: url('../img/widget.jpg'); }
-.touch          { background-image: url('../img/touch.jpg'); }
+
+/* PLACES */
+.home           { background-image: url('../img/places/5047947055_a318a24768_b.jpg'); }
+.dashboard      { background-image: url('../img/places/162363485_5cd8908aa6_o.jpg');  }
+.history        { background-image: url('../img/places/1569731156_3f1199abb9_b.jpg'); }
+.recent-photos  { background-image: url('../img/places/5279770943_fdb88f97d1_o.jpg'); }
+.hashtags       { background-image: url('../img/places/4744866167_33d45dd27e_b.jpg'); }
+
+
+/* GUIDE */
+.home           { background-image: url('../img/guide/5047947055_a318a24768_b.jpg'); }
+.dashboard      { background-image: url('../img/guide/162363485_5cd8908aa6_o.jpg');  }
+.history        { background-image: url('../img/guide/1569731156_3f1199abb9_b.jpg'); }
+.recent-photos  { background-image: url('../img/guide/5279770943_fdb88f97d1_o.jpg'); }
+.hashtags       { background-image: url('../img/guide/4744866167_33d45dd27e_b.jpg'); }
+
 
 .section-thumb {
   max-width: 400px;
@@ -1488,17 +1497,21 @@ body > section.v-center > div {
   }
 }
 
-.home-thumb          { background-image: url('../img/home-thumb.png'); }
-.dashboard-thumb     { background-image: url('../img/dashboard.jpg'); }
-.history-thumb       { background-image: url('../img/history-thumb.png'); }
-.recent-photos-thumb { background-image: url('../img/recent-photos-thumb.png'); }
-.hashtags-thumb      { background-image: url('../img/hashtags-thumb.png'); }
-.widget-thumb      { background-image: url('../img/widget-thumb.png'); }
-.touch-thumb      { background-image: url('../img/touch-thumb.jpg'); }
-@media (max-width: 767px){
-.dashboard-thumb     { background-image: url('../img/dashboard-thumb.png'); }
+/* PLACES */
+.home-thumb          { background-image: url('../img/places/home-thumb.png'); }
+.dashboard-thumb     { background-image: url('../img/places/dashboard.jpg'); }
+.history-thumb       { background-image: url('../img/places/history-thumb.png'); }
+.recent-photos-thumb { background-image: url('../img/places/recent-photos-thumb.png'); }
+.hashtags-thumb      { background-image: url('../img/places/hashtags-thumb.png'); }
+.widget-thumb        { background-image: url('../img/places/widget-thumb.png'); }
 
-}
+/* GUIDE */
+.home-thumb          { background-image: url('../img/guide/home-thumb.png'); }
+.dashboard-thumb     { background-image: url('../img/guide/dashboard.jpg'); }
+.history-thumb       { background-image: url('../img/guide/history-thumb.png'); }
+.recent-photos-thumb { background-image: url('../img/guide/recent-photos-thumb.png'); }
+.hashtags-thumb      { background-image: url('../img/guide/hashtags-thumb.png'); }
+
 
 
 
