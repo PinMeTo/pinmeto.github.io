@@ -1475,8 +1475,8 @@ body > section.v-center > div {
 
 
 /* GUIDE */
-.home           { background-image: url('../img/guide/5047947055_a318a24768_b.jpg'); }
-.dashboard      { background-image: url('../img/guide/162363485_5cd8908aa6_o.jpg');  }
+.home-guide           { background-image: url('../img/guide/500px44118402.jpg'); }
+.location      { background-image: url('../img/guide/flickr-frosh50-10858946293.jpg');  }
 .history        { background-image: url('../img/guide/1569731156_3f1199abb9_b.jpg'); }
 .recent-photos  { background-image: url('../img/guide/5279770943_fdb88f97d1_o.jpg'); }
 .hashtags       { background-image: url('../img/guide/4744866167_33d45dd27e_b.jpg'); }
