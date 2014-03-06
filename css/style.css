@@ -1414,8 +1414,8 @@ section * {
 
 
 .header-10-sub .background {
-  opacity: 0.40;
-  filter: alpha(opacity=40);
+  opacity: 0.70;
+  filter: alpha(opacity=70);
 }
 .header-10 {
   /* ppedit */
@@ -1475,16 +1475,16 @@ body > section.v-center > div {
 
 
 /* GUIDE */
-.home-guide           { background-image: url('../img/guide/500px44118402.jpg'); }
-.location      { background-image: url('../img/guide/flickr-frosh50-10858946293.jpg');  }
-.history        { background-image: url('../img/guide/1569731156_3f1199abb9_b.jpg'); }
-.recent-photos  { background-image: url('../img/guide/5279770943_fdb88f97d1_o.jpg'); }
-.hashtags       { background-image: url('../img/guide/4744866167_33d45dd27e_b.jpg'); }
+.guide-home       { background-image: url('../img/guide/home.jpg'); }
+.guide-location   { background-image: url('../img/guide/location.jpg');  }
+.guide-offline    { background-image: url('../img/guide/offline.jpg'); }
+.guide-responsive { background-image: url('../img/guide/responsive.jpg'); }
+.guide-data       { background-image: url('../img/guide/data.jpg'); }
 
 
 .section-thumb {
   max-width: 400px;
-  height: 258px;
+  height: 400px;
   border: 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1506,11 +1506,11 @@ body > section.v-center > div {
 .widget-thumb        { background-image: url('../img/places/widget-thumb.png'); }
 
 /* GUIDE */
-.home-thumb          { background-image: url('../img/guide/home-thumb.png'); }
-.dashboard-thumb     { background-image: url('../img/guide/dashboard.jpg'); }
-.history-thumb       { background-image: url('../img/guide/history-thumb.png'); }
-.recent-photos-thumb { background-image: url('../img/guide/recent-photos-thumb.png'); }
-.hashtags-thumb      { background-image: url('../img/guide/hashtags-thumb.png'); }
+.guide-home-thumb       { background-image: url('../img/guide/home-thumb.png'); }
+.guide-location-thumb   { background-image: url('../img/guide/location-thumb.jpg'); }
+.guide-offline-thumb    { background-image: url('../img/guide/offline-thumb.jpg'); }
+.guide-responsive-thumb { background-image: url('../img/guide/responsive-thumb.jpg'); }
+.guide-data-thumb { background-image: url('../img/guide/data-thumb.jpg'); }
 
 
 
