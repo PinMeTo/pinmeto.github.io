@@ -729,7 +729,7 @@ section * {
   margin-left: 0;
 }
 .header-10 .navbar .nav > li > a {
-  padding: 59px 0 57px;
+  padding: 29px 0 27px;
   font-size: 17px;
   font-weight: normal;
   color: #7f8c8d;
@@ -1477,11 +1477,13 @@ body > section.v-center > div {
 .why         { background-image: url('../img/why.jpg'); }
 .how         { background-image: url('../img/how.jpg'); }
 .what        { background-image: url('../img/what.jpg'); }
-.who         { background-image: url('../img/who.jpg'); }
-.daniel      { background-image: url('../img/daniel.jpg'); }
-.michael     { background-image: url('../img/michael.jpg'); }
-.marcus      { background-image: url('../img/marcus.jpg'); }
-.petter      { background-image: url('../img/petter.jpg'); }
+
+
+.team        { background-image: url('../img/team/team.jpg'); }
+.daniel      { background-image: url('../img/team/daniel.jpg'); }
+.michael     { background-image: url('../img/team/michael.jpg'); }
+.marcus      { background-image: url('../img/team/marcus.jpg'); }
+.petter      { background-image: url('../img/team/petter.jpg'); }
 
 
 
@@ -1522,11 +1524,14 @@ body > section.v-center > div {
 /* HOME */
 
 .home-thumb         { background-image: url('../img/home-thumb.jpg'); }
-.alla-thumb       { background-image: url('../img/alla-thumb.png'); }
-.petter-thumb       { background-image: url('../img/petter-thumb.jpg'); }
-.daniel-thumb       { background-image: url('../img/daniel-thumb.jpg'); }
-.marcus-thumb       { background-image: url('../img/marcus-thumb.jpg'); }
-.michael-thumb      { background-image: url('../img/michael-thumb.jpg'); }
+
+/* TEAM */
+
+.alla-thumb         { background-image: url('../img/team/alla-thumb.png'); }
+.petter-thumb       { background-image: url('../img/team/petter-thumb.jpg'); }
+.daniel-thumb       { background-image: url('../img/team/daniel-thumb.jpg'); }
+.marcus-thumb       { background-image: url('../img/team/marcus-thumb.jpg'); }
+.michael-thumb      { background-image: url('../img/team/michael-thumb.jpg'); }
 
 
 /* PLACES */
@@ -1746,7 +1751,7 @@ background-color: #33b1fd;
   font-size: 14px;
   padding-top: 65px;
   padding-bottom: 65px;
-  background: #2c3e50;
+  background: #1B374E;
   color: #bdc3c7;
 }
 .footer-3.v-center,
