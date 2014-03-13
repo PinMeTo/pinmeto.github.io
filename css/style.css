@@ -921,14 +921,16 @@ section * {
   color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 .header-10-sub .hero-unit p {
   font-size: 25px;
   font-weight: normal;
-  color: #ccc;
+  color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 37.5px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);  
 }
 @media (max-width: 480px) {
   .header-10-sub .hero-unit h1 {
@@ -1472,8 +1474,10 @@ body > section.v-center > div {
 /* ppedit section specific bg's  */
 
 /* PLACES */
-.home        { background-image: url('../img/home.jpg'); }
-.team        { background-image: url('../img/home.jpg'); }
+.why         { background-image: url('../img/why.jpg'); }
+.how         { background-image: url('../img/how.jpg'); }
+.what        { background-image: url('../img/what.jpg'); }
+.who         { background-image: url('../img/who.jpg'); }
 .daniel      { background-image: url('../img/daniel.jpg'); }
 .michael     { background-image: url('../img/michael.jpg'); }
 .marcus      { background-image: url('../img/marcus.jpg'); }
