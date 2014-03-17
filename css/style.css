@@ -1478,7 +1478,7 @@ body > section.v-center > div {
 .home             { background-image: url('../img/home.jpg'); }
 .home-widget      { background-image: url('../img/widget.jpg'); }
 .home-analytics   { background-image: url('../img/analytics.jpg'); }
-.home-guide       { background-image: url('../img/guide.jpg'); }
+.home-guide       2{ background-image: url('../img/guide.jpg'); }
 
 /* TEAM */
 
@@ -1506,7 +1506,6 @@ body > section.v-center > div {
 .guide-data       { background-image: url('../img/guide/data.jpg'); }
 .guide-prices     { background-image: url('../img/guide/prices.jpg'); }
 .guide-social     { background-image: url('../img/guide/social.jpg'); }
-.guide-video-bg   { background-image: url('../img/guide/video-bg.jpg'); }
 
 
 .section-thumb {
