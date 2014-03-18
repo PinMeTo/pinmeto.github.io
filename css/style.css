@@ -1412,9 +1412,7 @@ section * {
 }
 @media (max-width: 767px) {
   .content-23 .hero-unit.hero-unit-bordered h1 {
-    font-size: 28px;
-    font-weight: normal;
-    color: #ffffff;
+    font-size: 22px;
     font-weight: 600;
   }
 }
