@@ -1506,6 +1506,9 @@ body > section.v-center > div {
 .guide-data       { background-image: url('../img/guide/data.jpg'); }
 .guide-prices     { background-image: url('../img/guide/prices.jpg'); }
 .guide-social     { background-image: url('../img/guide/social.jpg'); }
+.guide-malmo      { background-image: url('../img/guide/malmo.jpg'); }
+.guide-vellinge   { background-image: url('../img/guide/vellinge.jpg'); }
+.guide-kungsbacka { background-image: url('../img/guide/kungsbacka.jpg'); }
 
 
 .section-thumb {
@@ -1526,9 +1529,9 @@ body > section.v-center > div {
 
 /* HOME */
 
-.home-widget-thumb         { background-image: url('../img/widget-thumb.jpg'); }
-.home-guide-thumb         { background-image: url('../img/guide-thumb.jpg'); }
-.home-analytics-thumb         { background-image: url('../img/analytics-thumb.jpg'); }
+.home-widget-thumb          { background-image: url('../img/widget-thumb.jpg'); }
+.home-guide-thumb           { background-image: url('../img/guide-thumb.jpg'); }
+.home-analytics-thumb       { background-image: url('../img/analytics-thumb.jpg'); }
 
 /* TEAM */
 
@@ -1552,8 +1555,8 @@ body > section.v-center > div {
 .guide-location-thumb   { background-image: url('../img/guide/location-thumb.jpg'); }
 .guide-offline-thumb    { background-image: url('../img/guide/offline-thumb.jpg'); }
 .guide-responsive-thumb { background-image: url('../img/guide/responsive-thumb.jpg'); }
-.guide-data-thumb { background-image: url('../img/guide/data-thumb.jpg'); }
-.guide-social-thumb { background-image: url('../img/guide/social-thumb.jpg'); }
+.guide-data-thumb       { background-image: url('../img/guide/data-thumb.jpg'); }
+.guide-social-thumb     { background-image: url('../img/guide/social-thumb.jpg'); }
 
 
 
