@@ -1478,7 +1478,7 @@ body > section.v-center > div {
 .home             { background-image: url('../img/home.jpg'); }
 .home-widget      { background-image: url('../img/widget.jpg'); }
 .home-analytics   { background-image: url('../img/analytics.jpg'); }
-.home-guide       2{ background-image: url('../img/guide.jpg'); }
+.home-guide       { background-image: url('../img/guide.jpg'); }
 
 /* TEAM */
 
