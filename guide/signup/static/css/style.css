@@ -970,7 +970,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("../../startup/common-files/img/NY_002.jpg");
+  background-image: url("../../../../img/guide/responsive.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1117,7 +1117,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   min-width: 100%;
   margin-bottom: 29px;
   border-color: #ebedee;
-  color: #7f8c8d;
+  color: #fff;
   font-size: 17px;
   line-height: 22px;
 }
