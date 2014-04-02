@@ -1085,9 +1085,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: 300;
 }
 .content-28 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   color: #7f8c8d;
+  max-width: 620px;
+  margin: 0 auto;
 }
 .content-28 .col-sm-10 > img {
   width: 100%;
