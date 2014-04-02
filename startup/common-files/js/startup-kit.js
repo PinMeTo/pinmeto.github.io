@@ -177,7 +177,7 @@ startupKit.uiKitHeader._inFixedMode = function(headerClass) {
                 'padding-top' : 30 + ((23 - 30) * headerZoom)
             });
             $('.navbar .brand img', header).css({
-                'width' : 'auto',
+                'width' : 25 + ((50 - 25) * headerZoom),
                 'height' : 25 + ((50 - 25) * headerZoom),
                 'margin-top' : -1 + ((-10 + 1) * headerZoom)
             });
@@ -462,9 +462,6 @@ startupKit.uiKitHeader.header17 = function() {
                     maxH = h;
             }).css('height', maxH + 'px');
             $(this).css('height', maxH + 'px');
-            if(!$(this).hasClass('calculated')){
-                $(this).addClass('calculated');
-            }
         });
     });
 
@@ -559,16 +556,14 @@ startupKit.uiKitHeader.header23 = function() {
     }
     $('#play').click(function(evt) {
         evt.preventDefault();
-        $('body').prepend($('.mask, .popup-video'));
-        $('header-23 .mask, header-23 .popup-video').detach();
-        $('.mask, .popup-video').fadeIn('slow');
+        $('.mask').fadeIn('slow');
+        $('.popup-video').fadeIn('slow');
         player.api('play')
         $('.mask').click(function() {
             player.api('pause');
-            $('.popup-video, .mask').fadeOut('slow', function() {
-                $('.header-23').prepend($('.mask, .popup-video'));
-                $('body > .mask, body > .popup-video').detach();
-            });
+            $('.popup-video').fadeOut('slow');
+            $('.mask').fadeOut('slow');
+
         });
     });
 };
@@ -598,16 +593,17 @@ startupKit.attachBgVideo = function() {
     var videBgDiv = $('#bgVideo');
     if (!isMobile.any() && videBgDiv) {
         var videobackground = new $.backgroundVideo(videBgDiv, {
-            "holder": "#bgVideo",
             "align" : "centerXY",
             "path" : "video/",
-            "width": 854,
-            "height": 480,
+            "width": 1280,
+            "height": 720,
             "filename" : "preview",
             "types" : ["mp4", "ogg", "webm"]
         });
     }
 }
+
+
 
 
 /**
@@ -770,9 +766,6 @@ startupKit.uiKitContent.content21 = function() {
                     maxH = h;
             }).css('height', maxH + 'px');
             $('.features-bodies', this).css('height', maxH + 'px');
-            if(!$('.features-bodies', this).hasClass('calculated')){
-                $('.features-bodies', this).addClass('calculated');
-            }
         });
     });
 

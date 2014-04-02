@@ -970,7 +970,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("../../img/guide/responsive.jpg");
+  background-image: url("../img/responsive.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -978,7 +978,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
-  background-image: url("../../img/guide/location.jpg");
+  background-image: url("../img/location.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -986,7 +986,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
-  background-image: url("../../img/guide/offline.jpg");
+  background-image: url("../img/offline.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
