@@ -101,6 +101,7 @@ p {
   /* 41px */
   font-weight: 300;
   margin-bottom: 20px;
+  max-width: 620px;
 }
 small {
   font-size: 84%;
@@ -905,6 +906,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: normal;
   color: #ffffff;
   font-weight: 500;
+  text-shadow: 0 0 30px rgba(0,0,0,0.5);  
 }
 @media (max-width: 600px) {
   .header-1-sub h3 {
@@ -928,6 +930,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: 300;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
+  text-shadow: 0 0 30px rgba(0,0,0,0.5);  
+  
 }
 @media (max-width: 600px) {
   .header-1-sub .lead {
@@ -978,7 +982,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
-  background-image: url("../img/location.jpg");
+  background-image: url("../img/kungsbacka.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -986,7 +990,15 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
-  background-image: url("../img/offline.jpg");
+  background-image: url("../img/vellinge.jpg");
+  opacity: 75;
+  filter: alpha(opacity=7500);
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  background-position: 50% 30%;
+}
+.header-1-sub .pt-page-4 .background {
+  background-image: url("../img/malmo.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1289,6 +1301,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-36 {
   background: #1b1f23;
+  background: url('../img/prices.jpg');
   text-align: center;
   color: #95a5a6;
   padding-top: 230px;
