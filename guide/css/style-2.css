@@ -1129,6 +1129,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-top: 180px;
   padding-bottom: 50px;
 }
+
+.content-4 .features > [class*="col-sm-"] > img {
+  opacity: 0.1;
+}
+
 .content-4 .features > [class*="col-sm-"] > img:first-child {
   position: absolute;
   left: 15px;
