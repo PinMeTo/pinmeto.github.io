@@ -1302,14 +1302,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   letter-spacing: -2px;
 }
 .content-36 .btn-success {
-  background: #27ae60;
+  background: #00AEFF;
   font-size: 22px;
   font-weight: 500;
   padding: 15px 46px;
   margin: 0 0 55px;
 }
 .content-36 .btn-success:hover {
-  background: #58D68D;
+  background: #5abbff;
 }
 .content-36 p {
   margin: 0 auto;

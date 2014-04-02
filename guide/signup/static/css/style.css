@@ -1097,12 +1097,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: 700;
 }
 .contacts-1 a {
-  color: #1abc9c;
+  color: #00AEFF;
 }
 .contacts-1 a:hover,
 .contacts-1 a:focus,
 .contacts-1 a.active {
-  color: #15967d;
+  color: #5abbff;
 }
 .contacts-1 form {
   margin: 0;
@@ -1123,7 +1123,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .contacts-1 form input:focus,
 .contacts-1 form textarea:focus {
-  border-color: #1abc9c;
+  border-color: #5abbff;
 }
 .contacts-1 form input {
   height: 45px;
@@ -1137,6 +1137,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .contacts-1 form .btn [class*="fui-"] {
   font-size: 24px;
+}
+.btn-primary {
+  background-color: #00AEFF;
 }
 .contacts-1 form .btn.btn-primary:hover,
 .contacts-1 form .btn.btn-primary:focus {
@@ -1162,7 +1165,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 46px;
   letter-spacing: normal;
   white-space: nowrap;
-  color: #1abc9c;
+  color: #5abbff;
 }
 @media (max-width: 992px) and (min-width: 768px) {
   .contacts-1 .phone big {
