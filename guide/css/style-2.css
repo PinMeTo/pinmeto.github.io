@@ -881,7 +881,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   z-index: 50;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 600px;
   padding: 0;
   overflow: hidden;
   color: white;
@@ -975,7 +975,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-1-sub .pt-page-1 .background {
   background-image: url("../img/responsive.jpg");
-  opacity: 75;
+  opacity: 50;
   filter: alpha(opacity=7500);
   opacity: 0.75;
   filter: alpha(opacity=75);
@@ -983,26 +983,26 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-1-sub .pt-page-2 .background {
   background-image: url("../img/kungsbacka.jpg");
-  opacity: 75;
-  filter: alpha(opacity=7500);
-  opacity: 0.75;
-  filter: alpha(opacity=75);
+  opacity: 45;
+  filter: alpha(opacity=4500);
+  opacity: 0.45;
+  filter: alpha(opacity=45);
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
   background-image: url("../img/vellinge.jpg");
-  opacity: 75;
-  filter: alpha(opacity=7500);
-  opacity: 0.75;
-  filter: alpha(opacity=75);
+  opacity: 45;
+  filter: alpha(opacity=4500);
+  opacity: 0.45;
+  filter: alpha(opacity=45);
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-4 .background {
   background-image: url("../img/malmo.jpg");
-  opacity: 75;
-  filter: alpha(opacity=7500);
-  opacity: 0.75;
-  filter: alpha(opacity=75);
+  opacity: 35;
+  filter: alpha(opacity=3500);
+  opacity: 0.35;
+  filter: alpha(opacity=35);
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-current,
@@ -1041,7 +1041,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-1-sub .page-transitions .controls > * {
   position: absolute;
   left: 15;
-  top: 410px;
+  top: 510px;
   z-index: 1000;
   width: 20px;
   overflow: hidden;
