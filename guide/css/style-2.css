@@ -975,26 +975,26 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-1-sub .pt-page-1 .background {
   background-image: url("../img/responsive.jpg");
-  opacity: 50;
-  filter: alpha(opacity=7500);
-  opacity: 0.75;
-  filter: alpha(opacity=75);
+  opacity: 40;
+  filter: alpha(opacity=4000);
+  opacity: 0.40;
+  filter: alpha(opacity=40);
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
   background-image: url("../img/kungsbacka.jpg");
-  opacity: 45;
-  filter: alpha(opacity=4500);
-  opacity: 0.45;
-  filter: alpha(opacity=45);
+  opacity: 35;
+  filter: alpha(opacity=3500);
+  opacity: 0.35;
+  filter: alpha(opacity=35);
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
   background-image: url("../img/vellinge.jpg");
-  opacity: 45;
-  filter: alpha(opacity=4500);
-  opacity: 0.45;
-  filter: alpha(opacity=45);
+  opacity: 35;
+  filter: alpha(opacity=3500);
+  opacity: 0.35;
+  filter: alpha(opacity=35);
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-4 .background {
