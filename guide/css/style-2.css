@@ -101,7 +101,7 @@ p {
   /* 41px */
   font-weight: 300;
   margin-bottom: 20px;
-  max-width: 620px;
+  /*max-width: 620px;*/
 }
 small {
   font-size: 84%;
