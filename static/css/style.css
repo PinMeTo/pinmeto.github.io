@@ -981,29 +981,19 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("../../startup/common-files/img/NY_002.jpg");
+  background-image: url("../../static/img/pinmeto.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
 }
-.header-1-sub .pt-page-2 .background {
-  background-image: url("../../startup/common-files/img/header/img-2.jpg");
-  opacity: 75;
-  filter: alpha(opacity=7500);
-  opacity: 0.75;
-  filter: alpha(opacity=75);
-  background-position: 50% 30%;
-}
-.header-1-sub .pt-page-3 .background {
-  background-image: url("../../startup/common-files/img/header/img-3.jpg");
-  opacity: 75;
-  filter: alpha(opacity=7500);
-  opacity: 0.75;
-  filter: alpha(opacity=75);
-  background-position: 50% 30%;
-}
+
+
+.analytics      { background-image: url("../../static/img/analytics.jpg"); }
+.widget         { background-image: url("../../static/img/widget.jpg"); }
+.guide          { background-image: url("../../static/img/guide.jpg"); }
+
 .header-1-sub .pt-page-current,
 .header-1-sub .no-js .pt-page {
   visibility: visible;
@@ -1080,6 +1070,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   line-height: 44px;
   color: #34495e;
   font-weight: 300;
+  text-align: center;
 }
 .content-23 {
   position: relative;
@@ -1091,6 +1082,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-23 .holder {
   height: 800px;
+  background: rgba(0,0,0,0.3);
 }
 .content-23 .holder.v-center,
 .content-23 .holder .v-center {
